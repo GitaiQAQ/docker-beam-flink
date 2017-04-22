@@ -16,7 +16,7 @@
 # limitations under the License.
 ################################################################################
 
-FROM flink
+FROM daocloud.io/dphdjy/flink
 
 RUN curl -L https://github.com/ecesena/beam-starter/releases/download/v0.1/beam-starter-0.1.jar > /root/downloads/beam-starter-0.1.jar
 

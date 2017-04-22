@@ -16,7 +16,7 @@
 # limitations under the License.
 ################################################################################
 
-FROM base
+FROM daocloud.io/dphdjy/base
 
 #add passless key to ssh
 RUN ssh-keygen -f ~/.ssh/id_rsa -t rsa -N ''
